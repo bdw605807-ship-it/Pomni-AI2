@@ -7,21 +7,21 @@ import sub from './sub.js';
 const client = new Client({
   phoneNumber: '201028723173', // Bot number
   prefix: [".", "/", "!"],
-  fromMe: false, 
+  fromMe: true, 
   owners: [
   // Owner 1
-    { name: "VA", lid: "247579682029763@lid", jid: "972569311531@s.whatsapp.net" },
+    { name: "𝑨𝑩𝑫𝑶🥷🏼", lid: "201206676955@lid", jid: "201206676955@s.whatsapp.net" },
   // Owner 2
-    { name: "emam", lid: "221307316789354@lid", jid: "201028723173@s.whatsapp.net" },
+    { name: "𝑨𝑩𝑫𝑶🥷🏼", lid: "201206676955@lid", jid: "201206676955@s.whatsapp.net" },
   // Owner 3
-    { name: "Sukuna", jid: "201033024135@s.whatsapp.net", lid: "50414477168824@lid" },
+    { name: "𝑨𝑩𝑫𝑶🥷🏼", jid: "201206676955@s.whatsapp.net", lid: "112425298825328@lid" },
   // Owner 4 
-   { name: "عمورتي", jid: "201050079089@s.whatsapp.net", lid: "51664513925368@lid" }
+   { name: "𝑨𝑩𝑫𝑶🥷🏼", jid: "201206676955@s.whatsapp.net", lid: "112425298825328@lid" }
   ],
   settings: { noWelcome: false },
   commandsPath: './plugins'
 });
-
+112425298825328
 client.onGroupEvent(group);
 client.onCommandAccess(access);
 
@@ -33,17 +33,17 @@ if (!global.db) {
 /* =========== Config ========== */
 const { config } = client;
 config.info = { 
-  nameBot: "♡ 𝙋𝙊𝙈𝙉𝙄 🎪 〈", 
-  nameChannel: "𝐕𝐈𝐈7 ~ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🕷️", 
-  idChannel: "120363225356834044@newsletter",
+  nameBot: "venom", 
+  nameChannel: "الــبــرازيــلي", 
+  idChannel: "120363427228734118@newsletter",
   urls: {
     repo: "https://github.com/deveni0/Pomni-AI",
     api: "https://emam-api.web.id",
-    channel: "https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v"
+    channel:"https://whatsapp.com/channel/0029Vb85pA27T8bVjyHW1B3Q"
   },
   copyright: { 
-    pack: 'ڤـ ـ VA ـ ـا', 
-    author: 'VA'
+    pack: '𝑨𝑩𝑫𝑶', 
+    author: '𝑨𝑩𝑫𝑶'
   },
   images: [
     "https://i.pinimg.com/originals/11/26/97/11269786cdb625c60213212aa66273a9.png",
