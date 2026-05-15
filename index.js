@@ -10,13 +10,13 @@ const client = new Client({
   fromMe: false, 
   owners: [
   // Owner 1
-    { name: "𝑨𝑩𝑫𝑶🥷🏼", lid: "201206676955@lid", jid: "201206676955@s.whatsapp.net" },
+    { name: "𝑨𝑩𝑫𝑶", lid: "201206676955@lid", jid: "201206676955@s.whatsapp.net" },
   // Owner 2
-    { name: "𝑨𝑩𝑫𝑶🥷🏼", lid: "201206676955@lid", jid: "201206676955@s.whatsapp.net" },
+    { name: "𝑨𝑩𝑫𝑶", lid: "201206676955@lid", jid: "201206676955@s.whatsapp.net" },
   // Owner 3
-    { name: "𝑨𝑩𝑫𝑶🥷🏼", jid: "201206676955@s.whatsapp.net", lid: "112425298825328@lid" },
+    { name: "𝑨𝑩𝑫𝑶", jid: "201206676955@s.whatsapp.net", lid: "112425298825328@lid" },
   // Owner 4 
-   { name: "𝑨𝑩𝑫𝑶🥷🏼", jid: "201206676955@s.whatsapp.net", lid: "112425298825328@lid" }
+   { name: "𝑨𝑩𝑫𝑶", jid: "201206676955@s.whatsapp.net", lid: "112425298825328@lid" }
   ],
   settings: { noWelcome: false },
   commandsPath: './plugins'
@@ -33,8 +33,8 @@ if (!global.db) {
 /* =========== Config ========== */
 const { config } = client;
 config.info = { 
-  nameBot: "venom", 
-  nameChannel: "الــبــرازيــلي", 
+  nameBot: "𝑬𝑳𝑩𝑹𝑨𝒁𝑰𝑳𝒀", 
+  nameChannel: "𝑬𝑳𝑩𝑹𝑨𝒁𝑰𝑳𝒀 ~ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🇧🇷⚡️", 
   idChannel: "120363427228734118@newsletter",
   urls: {
     repo: "https://github.com/deveni0/Pomni-AI",
