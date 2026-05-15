@@ -19,5 +19,5 @@ export default async function before(m, { conn }) {
         }
     }
 
-    return false;
+    return true;
 }
