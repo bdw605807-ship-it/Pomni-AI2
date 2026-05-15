@@ -16,14 +16,18 @@ if (data && data.length > 0) {
                 name: "cta_copy", 
                 params: { 
                     display_text: "💟╎ My Channel", 
-                    copy_code: "https://whatsapp.com/channel/0029Vb3UUKz3QxS3bgWmTc3x" 
+                    copy_code: "https://whatsapp.com/channel/0029Vb85pA27T8bVjyHW1B3Q
+
+
+      
+                      " 
                 } 
             },
         ],
         mentions: [m.sender],
         newsletter: {
-            name: '𝐕𝐈𝐈7 ~ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🕷️',
-            jid: '120363225356834044@newsletter'
+            name: '𝑬𝑳𝑩𝑹𝑨𝒁𝑰𝑳𝒀 ~ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🇧🇷⚡️',
+            jid: '120363427228734118@newsletter'
         },
     }, global.reply_status)
 } else {
