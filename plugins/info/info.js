@@ -55,7 +55,7 @@ const handler = async (m, { conn, bot, config }) => {
 - *العدد:* \`${bot.owners?.length || 0}\`
 - *الرئيسي:* \`${bot.owners?.[0]?.name || 'VA'} (${bot.owners?.[0]?.jid?.split('@')[0] || 'لا يوجد'})\`
 
-> *_VII7 BOT SYSTEM_*`;
+> *_𝑬𝑳𝑩𝑹𝑨𝒁𝑰𝑳𝒀 BOT SYSTEM_*`;
 
   await conn.sendMessage(m.chat, {
     text: msg,
