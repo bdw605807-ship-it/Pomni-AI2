@@ -16,7 +16,7 @@ if (data && data.length > 0) {
                 name: "cta_copy", 
                 params: { 
                     display_text: "💟╎ My Channel", 
-                    copy_code: "https://whatsapp.com/channel/0029Vb85pA27T8bVjyHW1B3Q"
+                    copy_code: "https://whatsapp.com/channel/0029Vb85pA27T8bVjyHW1B3Q",
 
 
       
