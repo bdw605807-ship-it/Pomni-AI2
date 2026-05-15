@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "keywords": ["whatsapp-bot", "pomni-ai"],
-  "author": "𝑨𝑩𝑫𝑶🥷🏼",
+  "author": "𝑬𝑳𝑩𝑹𝑨𝒁𝑰𝑳𝒀",
   "license": "MIT",
   "dependencies": {
     "meowsab": "https://github.com/deveni0/ws/tarball/main",
