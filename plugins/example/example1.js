@@ -11,7 +11,7 @@ conn.msgUrl(m.chat,
     title: '50% OFF',
     body: 'Limited time',
     big: true,
-    mentions: ['201206676955@s.whatsapp.net', '201111111111@s.whatsapp.net'],
+    mentions: ['201206676955@s.whatsapp.net', '201206676955@s.whatsapp.net'],
     newsletter: {
       name: '𝑬𝑳𝑩𝑹𝑨𝒁𝑰𝑳𝒀 ~ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🇧🇷⚡️',
       jid: '120363427228734118@newsletter'
