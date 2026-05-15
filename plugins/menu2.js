@@ -32,11 +32,11 @@ const context = (jid, img) => ({
     forwardingScore: 1,
     forwardedNewsletterMessageInfo: {
         newsletterJid: '120363427228734118@newsletter',
-        newsletterName: '𝑨𝑩𝑫𝑶',
+        newsletterName: '𝑬𝑳𝑩𝑹𝑨𝒁𝑰𝑳𝒀 ~ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🇧🇷⚡️',
         serverMessageId: 0
     },
     externalAdReply: {
-        title: "venom | 𝐁𝐨𝐭 𝐢𝐬 𝐛𝐮𝐢𝐥𝐭 𝐨𝐧 𝐭𝐡𝐞 𝑨𝑩𝑫𝑶 𝐟𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤",
+        title: "venom | 𝐁𝐨𝐭 𝐢𝐬 𝐛𝐮𝐢𝐥𝐭 𝐨𝐧 𝐭𝐡𝐞 𝑨𝑩𝑫𝑶-𝑬𝑳𝑩𝑹𝑨𝒁𝑰𝑳𝒀 𝐟𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤",
         body: "𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝚋𝚘𝚝 𝚝𝚑𝚊𝚝 𝚒𝚜 𝚎𝚊𝚜𝚢 𝚝𝚘 𝚖𝚘𝚍𝚒𝚏𝚢 𝚊𝚗𝚍 𝚟𝚎𝚛𝚢 𝚏𝚊𝚜𝚝",
         thumbnailUrl: img,
         sourceUrl: '',
@@ -89,7 +89,7 @@ const uptimeFormatted = `${String(hours).padStart(2, '0')}:${String(minutes).pad
             }],
             mentions: [m.sender],
             newsletter: {
-                name: '𝑨𝑩𝑫𝑶',
+                name: '𝑬𝑳𝑩𝑹𝑨𝒁𝑰𝑳𝒀 ~ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🇧🇷⚡️',
                 jid: '120363427228734118@newsletter'
             }
         }, global.reply_status);
@@ -120,7 +120,7 @@ const uptimeFormatted = `${String(hours).padStart(2, '0')}:${String(minutes).pad
 ${cmdsList}
 
 ╭─┈─┈─┈─⟞${cat[3]}⟝─┈─┈─┈─╮
-┃ *⌯︙𝑨𝑩𝑫𝑶 ~ ${bot?.config?.info?.nameBot || 'venom'}*
+┃ *⌯︙𝑬𝑳𝑩𝑹𝑨𝒁𝑰𝑳𝒀 ~ ${bot?.config?.info?.nameBot || 'venom'}*
 ╰─┈─┈─┈─⟞${cat[3]}⟝─┈─┈─┈─╯
 > *رَبَّنَا اغْفِرْ لَنَا وَلِإِخْوَانِنَا*`.trim(), contextInfo: context(m.sender, getImg(bot)) }, { quoted: m });
 }
